@@ -1,0 +1,9 @@
+C:\Users\91745\source\repos\Search.Domain\bin\Debug\netcoreapp2.2\Search.Domain.deps.json
+C:\Users\91745\source\repos\Search.Domain\bin\Debug\netcoreapp2.2\Search.Domain.dll
+C:\Users\91745\source\repos\Search.Domain\bin\Debug\netcoreapp2.2\Search.Domain.pdb
+C:\Users\91745\source\repos\Search.Domain\obj\Debug\netcoreapp2.2\Search.Domain.csprojAssemblyReference.cache
+C:\Users\91745\source\repos\Search.Domain\obj\Debug\netcoreapp2.2\Search.Domain.AssemblyInfoInputs.cache
+C:\Users\91745\source\repos\Search.Domain\obj\Debug\netcoreapp2.2\Search.Domain.AssemblyInfo.cs
+C:\Users\91745\source\repos\Search.Domain\obj\Debug\netcoreapp2.2\Search.Domain.csproj.CoreCompileInputs.cache
+C:\Users\91745\source\repos\Search.Domain\obj\Debug\netcoreapp2.2\Search.Domain.dll
+C:\Users\91745\source\repos\Search.Domain\obj\Debug\netcoreapp2.2\Search.Domain.pdb

@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "CPWpQ8GEsWL9qcGDzNAbKPQztPmYBsvG9KaGNFUB5/5Ny5OZHCXUK3ruSosQbnw9qxe4a5F5hdWnWhyUzACOFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Domain\\RuleEngine.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\91745\\.nuget\\packages\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
+    "C:\\Users\\91745\\.nuget\\packages\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
+    "C:\\Users\\91745\\.nuget\\packages\\microsoft.netcore.dotnethostpolicy\\2.2.0\\microsoft.netcore.dotnethostpolicy.2.2.0.nupkg.sha512",
+    "C:\\Users\\91745\\.nuget\\packages\\microsoft.netcore.dotnethostresolver\\2.2.0\\microsoft.netcore.dotnethostresolver.2.2.0.nupkg.sha512",
+    "C:\\Users\\91745\\.nuget\\packages\\microsoft.netcore.platforms\\2.2.0\\microsoft.netcore.platforms.2.2.0.nupkg.sha512",
+    "C:\\Users\\91745\\.nuget\\packages\\microsoft.netcore.targets\\2.0.0\\microsoft.netcore.targets.2.0.0.nupkg.sha512",
+    "C:\\Users\\91745\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

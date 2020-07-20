@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RuleEngineAPI</name>
+    </assembly>
+    <members>
+        <member name="T:RuleEngineAPI.Application.Queries.ISearchQueries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Application.Queries.ISearchQueries.Movies">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:RuleEngineAPI.Application.Queries.SearchQueries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Application.Queries.SearchQueries.#ctor(Search.Infrastructure.Repositories.IRepository{Search.Domain.Movies.MoviesEntity})">
+            <summary>
+            
+            </summary>
+            <param name="moviesRepo"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Application.Queries.SearchQueries.Movies">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Movies.MoviesResponseViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Request.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Response.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Response.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Response.ErrorCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Controllers.SearchController.#ctor(RuleEngineAPI.Application.Queries.ISearchQueries)">
+            <summary>
+            
+            </summary>
+            <param name="queries"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Controllers.SearchController.GetMovies">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RuleEngineAPI.Extensions.ServicesExtension.RegisterMVC(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Extensions.ServicesExtension.RegisterDependencies(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Extensions.ServicesExtension.RegisterSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="T:RuleEngineAPI.Infrastructure.Middleware.SearchExceptionHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Infrastructure.Middleware.SearchExceptionHandler.#ctor(Microsoft.Extensions.Logging.ILogger{RuleEngineAPI.Infrastructure.Middleware.SearchExceptionHandler})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+    </members>
+</doc>

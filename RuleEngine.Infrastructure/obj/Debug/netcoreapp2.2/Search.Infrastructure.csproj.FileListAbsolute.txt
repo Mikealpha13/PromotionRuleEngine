@@ -1,0 +1,9 @@
+C:\Users\91745\source\repos\Search.Infrastructure\bin\Debug\netcoreapp2.2\Search.Infrastructure.deps.json
+C:\Users\91745\source\repos\Search.Infrastructure\bin\Debug\netcoreapp2.2\Search.Infrastructure.dll
+C:\Users\91745\source\repos\Search.Infrastructure\bin\Debug\netcoreapp2.2\Search.Infrastructure.pdb
+C:\Users\91745\source\repos\Search.Infrastructure\obj\Debug\netcoreapp2.2\Search.Infrastructure.csprojAssemblyReference.cache
+C:\Users\91745\source\repos\Search.Infrastructure\obj\Debug\netcoreapp2.2\Search.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\91745\source\repos\Search.Infrastructure\obj\Debug\netcoreapp2.2\Search.Infrastructure.AssemblyInfo.cs
+C:\Users\91745\source\repos\Search.Infrastructure\obj\Debug\netcoreapp2.2\Search.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\91745\source\repos\Search.Infrastructure\obj\Debug\netcoreapp2.2\Search.Infrastructure.dll
+C:\Users\91745\source\repos\Search.Infrastructure\obj\Debug\netcoreapp2.2\Search.Infrastructure.pdb
