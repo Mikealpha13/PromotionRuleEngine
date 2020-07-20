@@ -12,7 +12,7 @@ namespace RuleEngineAPI.Controllers
     /// <summary>
     /// 
     /// </summary>
-    [Route("api/[controller]")]
+    [Route("RuleEngine")]
     [ServiceFilter(typeof(RuleEngineExceptionHandler))]
     [ApiController]
     public class RuleEngineController : ControllerBase
