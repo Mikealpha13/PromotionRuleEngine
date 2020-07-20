@@ -14,7 +14,8 @@
         "outputPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\91745\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,7 +74,8 @@
         "outputPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\91745\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -32,7 +32,7 @@ namespace RuleEngineAPITest.CommandTest
         [TestMethod]
         public void ScenarioATest()
         {
-            var actualresult = 100;
+            var expectedResult = 100;
             var scenariArequest = new PromotionRequestViewModel();
             scenariArequest.PurchasedPoduct.Add(new RuleEngineAPI.Application.ViewModels.Promotion.Product() { CodeName = "A", Quantity = 1 });
             scenariArequest.PurchasedPoduct.Add(new RuleEngineAPI.Application.ViewModels.Promotion.Product() { CodeName = "B", Quantity = 1 });
@@ -41,13 +41,13 @@ namespace RuleEngineAPITest.CommandTest
             var promhandler = new PromotionRuleCommandHandler(_config);
             var actualResult = promhandler.Handle(promCammand, new System.Threading.CancellationToken()).GetAwaiter().GetResult();
             Assert.IsNotNull(actualResult);
-            Assert.AreEqual(actualResult.promotionalPrice, actualResult.promotionalPrice);
+            Assert.AreEqual(expectedResult, actualResult.promotionalPrice);
         }
 
         [TestMethod]
         public void ScenarioBTest()
         {
-            var actualresult = 370;
+            var expectedResult = 370;
             var scenariArequest = new PromotionRequestViewModel();
             scenariArequest.PurchasedPoduct.Add(new RuleEngineAPI.Application.ViewModels.Promotion.Product() { CodeName = "A", Quantity = 5 });
             scenariArequest.PurchasedPoduct.Add(new RuleEngineAPI.Application.ViewModels.Promotion.Product() { CodeName = "B", Quantity = 5 });
@@ -56,13 +56,13 @@ namespace RuleEngineAPITest.CommandTest
             var promhandler = new PromotionRuleCommandHandler(_config);
             var actualResult = promhandler.Handle(promCammand, new System.Threading.CancellationToken()).GetAwaiter().GetResult();
             Assert.IsNotNull(actualResult);
-            Assert.AreEqual(actualResult.promotionalPrice, actualResult.promotionalPrice);
+            Assert.AreEqual(expectedResult, actualResult.promotionalPrice);
         }
 
         [TestMethod]
         public void ScenarioCTest()
         {
-            var actualresult = 280;
+            var expectedResult = 280;
             var scenariArequest = new PromotionRequestViewModel();
             scenariArequest.PurchasedPoduct.Add(new RuleEngineAPI.Application.ViewModels.Promotion.Product() { CodeName = "A", Quantity = 3 });
             scenariArequest.PurchasedPoduct.Add(new RuleEngineAPI.Application.ViewModels.Promotion.Product() { CodeName = "B", Quantity = 5 });
@@ -72,7 +72,7 @@ namespace RuleEngineAPITest.CommandTest
             var promhandler = new PromotionRuleCommandHandler(_config);
             var actualResult = promhandler.Handle(promCammand, new System.Threading.CancellationToken()).GetAwaiter().GetResult();
             Assert.IsNotNull(actualResult);
-            Assert.AreEqual(actualResult.promotionalPrice, actualResult.promotionalPrice);
+            Assert.AreEqual(expectedResult, actualResult.promotionalPrice);
         }
     }
 }

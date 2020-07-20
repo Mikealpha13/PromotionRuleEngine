@@ -15,4 +15,3 @@ C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Infrastructure\obj\Debu
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Infrastructure\obj\Debug\netcoreapp2.2\RuleEngine.Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Infrastructure\obj\Debug\netcoreapp2.2\RuleEngine.Infrastructure.dll
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Infrastructure\obj\Debug\netcoreapp2.2\RuleEngine.Infrastructure.pdb
-C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Infrastructure\obj\Debug\netcoreapp2.2\RuleEngine.Infrastructure.csprojAssemblyReference.cache
