@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "5SX32jizflgu9SmSr0vOvjRYxknz3nLGzBDThgjvIyjdD0BUIRg/hwEHRt+Q5D3yGUMC3pmI0edqaZMl/mdD7Q==",
-  "success": false,
+  "dgSpecHash": "jSd7anEai6KUCtLSv2IiJIf3VXMwLrLtxGAVHDD+EKnb6oSo5a1hxk9ijC2Dx/CpOYuzVWutEjW7dXoZbPizcg==",
+  "success": true,
   "projectFilePath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngineAPI\\RuleEngineAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\91745\\.nuget\\packages\\mediatr\\8.0.2\\mediatr.8.0.2.nupkg.sha512",
@@ -299,24 +299,5 @@
     "C:\\Users\\91745\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\91745\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    }
-  ]
+  "logs": []
 }

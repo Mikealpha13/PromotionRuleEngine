@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MediatR;
-using Microsoft.AspNetCore.Authorization;
+﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using RuleEngineAPI.Application.Commands.Promotion;
-using RuleEngineAPI.Application.Queries;
 using RuleEngineAPI.Application.ViewModels.Movies;
 using RuleEngineAPI.Infrastructure.Middleware;
+using System;
+using System.Threading.Tasks;
 
 namespace RuleEngineAPI.Controllers
 {
@@ -22,6 +18,7 @@ namespace RuleEngineAPI.Controllers
     public class RuleEngineController : ControllerBase
     {
         private readonly IMediator _mediatR;
+        
 
         /// <summary>
         /// 
@@ -30,6 +27,7 @@ namespace RuleEngineAPI.Controllers
         public RuleEngineController(IMediator mediator)
         {
             _mediatR = mediator ?? throw new ArgumentNullException(nameof(mediator));
+          
         }
 
         /// <summary>
@@ -37,15 +35,15 @@ namespace RuleEngineAPI.Controllers
         /// </summary>
         /// <returns></returns>
         [Route("Promotions")]
-        [HttpGet]
+        [HttpPost]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public IActionResult ApplicablePromotion([FromBody]PromotionRequestViewModel request)
+        public async Task<IActionResult> ApplicablePromotion([FromBody]PromotionRequestViewModel request)
         {
             request.RequestId = Guid.NewGuid().ToString();
-            return Ok(_mediatR.Send(new PromotionRuleCommand(request)));
+            return Ok(await _mediatR.Send(new PromotionRuleCommand(request)));
         }
 
 

@@ -9,7 +9,6 @@ C:\Users\91745\source\repos\Movies\Search\Search.Domain\obj\Debug\netcoreapp2.2\
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\bin\Debug\netcoreapp2.2\RuleEngine.Domain.deps.json
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\bin\Debug\netcoreapp2.2\RuleEngine.Domain.dll
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\bin\Debug\netcoreapp2.2\RuleEngine.Domain.pdb
-C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.csprojAssemblyReference.cache
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.AssemblyInfoInputs.cache
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.AssemblyInfo.cs
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.csproj.CoreCompileInputs.cache

@@ -11,7 +11,7 @@ namespace RuleEngineAPI.Application.Commands.Promotion
     /// <summary>
     /// This command is created to evaluate the promotion business requirements
     /// </summary>
-    public class PromotionRuleCommand:IRequest<object>
+    public class PromotionRuleCommand:IRequest<PromotionResponseViewModel>
     {
         /// <summary>
         /// 

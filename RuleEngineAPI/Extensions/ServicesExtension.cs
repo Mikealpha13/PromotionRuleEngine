@@ -1,15 +1,10 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using Search.Domain.Movies;
-using Search.Infrastructure.Repositories;
 using RuleEngineAPI.Infrastructure.Middleware;
+using Search.Infrastructure.Repositories;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using MediatR;
 
 namespace RuleEngineAPI.Extensions
 {
@@ -34,7 +29,7 @@ namespace RuleEngineAPI.Extensions
         {
 
             service.AddScoped<RuleEngineExceptionHandler>();
-            service.AddScoped<IRepository<RuleEntity>,RedisRepository<RuleEntity>>();
+            
             
         }
       
@@ -50,8 +45,8 @@ namespace RuleEngineAPI.Extensions
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Search API",
-                    Description = "Search the required movies/resource from API",
+                    Title = "Rule Engine API",
+                    Description = "Applies the specific promitional policy ",
                     TermsOfService = new Uri("https://goplex.com/terms"),
                     Contact = new OpenApiContact
                     {

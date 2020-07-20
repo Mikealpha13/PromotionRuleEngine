@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Rewrite;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
+using RuleEngine.Domain.Rule;
 using RuleEngineAPI.Extensions;
 
 namespace RuleEngineAPI
@@ -20,11 +15,21 @@ namespace RuleEngineAPI
             Configuration = configuration;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
         public IConfiguration Configuration { get; }
-
-        // This method gets called by the runtime. Use this method to add services to the container.
+/// <summary>
+/// 
+/// </summary>
+/// <param name="services"></param>
         public void ConfigureServices(IServiceCollection services)
         {
+            var section = Configuration.GetSection("Promotion");
+            
+            
+            
+            services.Configure<RuleEntity>(section);
             services.RegisterMVC();
             services.RegisterSwagger();
             services.RegisterDependencies();
@@ -51,6 +56,10 @@ namespace RuleEngineAPI
             });
 
           
+            var option = new RewriteOptions();
+            option.AddRedirect("^$", "swagger");
+            app.UseRewriter(option);
+
             app.UseMvc();
         }
     }

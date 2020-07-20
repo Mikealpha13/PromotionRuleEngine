@@ -4565,6 +4565,26 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
+      },
+      "RuleEngine.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/RuleEngine.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RuleEngine.Domain.dll": {}
+        }
+      },
+      "RuleEngine.Infrastructure/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.2",
+        "compile": {
+          "bin/placeholder/RuleEngine.Infrastructure.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RuleEngine.Infrastructure.dll": {}
+        }
       }
     }
   },
@@ -12523,23 +12543,34 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
+    },
+    "RuleEngine.Domain/1.0.0": {
+      "type": "project",
+      "path": "../RuleEngine.Domain/RuleEngine.Domain.csproj",
+      "msbuildProject": "../RuleEngine.Domain/RuleEngine.Domain.csproj"
+    },
+    "RuleEngine.Infrastructure/1.0.0": {
+      "type": "project",
+      "path": "../RuleEngine.Infrastructure/RuleEngine.Infrastructure.csproj",
+      "msbuildProject": "../RuleEngine.Infrastructure/RuleEngine.Infrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj",
-      "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj",
       "MediatR >= 8.0.2",
       "MediatR.Extensions.Microsoft.DependencyInjection >= 8.0.1",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.10.9",
+      "RuleEngine.Domain >= 1.0.0",
+      "RuleEngine.Infrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 5.5.1"
     ]
   },
   "packageFolders": {
     "C:\\Users\\91745\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -12551,7 +12582,8 @@
       "outputPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngineAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
         "C:\\Users\\91745\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -12568,11 +12600,11 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj": {
-              "projectPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj"
+            "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Domain\\RuleEngine.Domain.csproj": {
+              "projectPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Domain\\RuleEngine.Domain.csproj"
             },
-            "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj"
+            "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Infrastructure\\RuleEngine.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\RuleEngine.Infrastructure\\RuleEngine.Infrastructure.csproj"
             }
           }
         }
@@ -12628,25 +12660,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Domain\\RuleEngine.Domain.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\91745\\source\\repos\\Movies\\RuleEngine\\Search.Infrastructure\\RuleEngine.Infrastructure.csproj",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    }
-  ]
+  }
 }

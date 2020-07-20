@@ -1,11 +1,12 @@
-﻿using System;
+﻿using RuleEngine.Domain.Rule;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Search.Domain.Movies
+namespace RuleEngine.Domain.Rule
 {
     public class RuleEntity
     {
-
+        public List<PromotionEntity> PromotionRules { get; set; }
     }
 }

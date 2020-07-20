@@ -7,8 +7,18 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>C:\Users\91745\source\repos\RuleEngineAPI\RuleEngineAPI.xml</DocumentationFile>
+    <DocumentationFile>C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngineAPI\RuleEngineAPI.xml</DocumentationFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="RuleEngineAPI.xml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="RuleEngineAPI.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Application\DomainEvents\" />
@@ -26,8 +36,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Search.Domain\RuleEngine.Domain.csproj" />
-    <ProjectReference Include="..\Search.Infrastructure\RuleEngine.Infrastructure.csproj" />
+    <ProjectReference Include="..\RuleEngine.Domain\RuleEngine.Domain.csproj" />
+    <ProjectReference Include="..\RuleEngine.Infrastructure\RuleEngine.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

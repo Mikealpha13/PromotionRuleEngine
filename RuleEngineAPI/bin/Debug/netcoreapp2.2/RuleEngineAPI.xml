@@ -1,0 +1,175 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RuleEngineAPI</name>
+    </assembly>
+    <members>
+        <member name="T:RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommand">
+            <summary>
+            This command is created to evaluate the promotion business requirements
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommand.PurchaseRequest">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommand.#ctor(RuleEngineAPI.Application.ViewModels.Movies.PromotionRequestViewModel)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+        </member>
+        <member name="T:RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommandHandler">
+            <summary>
+            This handler is used to perform business logic
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommandHandler.#ctor(Microsoft.Extensions.Options.IOptions{RuleEngine.Domain.Rule.RuleEntity})">
+            <summary>
+            
+            </summary>
+            <param name="ruleConfiguration"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommandHandler.Handle(RuleEngineAPI.Application.Commands.Promotion.PromotionRuleCommand,System.Threading.CancellationToken)">
+            <summary>
+            
+            </summary>
+            <param name="request"></param>
+            <param name="cancellationToken"></param>
+            <returns></returns>
+        </member>
+        <member name="T:RuleEngineAPI.Application.Queries.IRuleEngineQueries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.Queries.RuleEngineQueries">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Promotion.Product">
+            <summary>
+            This class contains the product details eligble for promotions
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Promotion.Product.CodeName">
+            <summary>
+            This property contains the value for product name
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Promotion.Product.Quantity">
+            <summary>
+            This property conatin the number of units to be purchased
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Promotion.PromotionResponseViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Promotion.PromotionResponseViewModel.promotionalPrice">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Movies.PromotionRequestViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Movies.PromotionRequestViewModel.PurchasedPoduct">
+            <summary>
+            It contains the details the number of items purchased
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Request">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Request.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Application.ViewModels.Response">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Response.RequestId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Response.ErrorMessage">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:RuleEngineAPI.Application.ViewModels.Response.ErrorCode">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:RuleEngineAPI.Controllers.RuleEngineController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Controllers.RuleEngineController.#ctor(MediatR.IMediator)">
+            <summary>
+            
+            </summary>
+            <param name="mediator"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Controllers.RuleEngineController.ApplicablePromotion(RuleEngineAPI.Application.ViewModels.Movies.PromotionRequestViewModel)">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RuleEngineAPI.Extensions.ServicesExtension.RegisterMVC(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Extensions.ServicesExtension.RegisterDependencies(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="M:RuleEngineAPI.Extensions.ServicesExtension.RegisterSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="service"></param>
+        </member>
+        <member name="T:RuleEngineAPI.Infrastructure.Middleware.RuleEngineExceptionHandler">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Infrastructure.Middleware.RuleEngineExceptionHandler.#ctor(Microsoft.Extensions.Logging.ILogger{RuleEngineAPI.Infrastructure.Middleware.RuleEngineExceptionHandler})">
+            <summary>
+            
+            </summary>
+            <param name="logger"></param>
+        </member>
+        <member name="P:RuleEngineAPI.Startup.Configuration">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:RuleEngineAPI.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

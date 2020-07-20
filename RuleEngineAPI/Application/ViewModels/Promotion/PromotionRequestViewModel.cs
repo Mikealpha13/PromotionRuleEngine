@@ -1,9 +1,5 @@
 ﻿using RuleEngineAPI.Application.ViewModels.Promotion;
-using Search.Domain.Movies;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace RuleEngineAPI.Application.ViewModels.Movies
 {
