@@ -53,7 +53,7 @@ namespace RuleEngineAPI
             // specifying the Swagger JSON endpoint.
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Search API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Rule Engine API V1");
             });
 
           

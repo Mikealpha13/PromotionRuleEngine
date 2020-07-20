@@ -14,3 +14,4 @@ C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcor
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.csproj.CoreCompileInputs.cache
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.dll
 C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.pdb
+C:\Users\91745\source\repos\Movies\RuleEngine\RuleEngine.Domain\obj\Debug\netcoreapp2.2\RuleEngine.Domain.csprojAssemblyReference.cache
